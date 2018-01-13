@@ -1,0 +1,23 @@
+Minion|Air Elemental|0|1|1|None|None|0|0|None
+Minion|Earth Elemental|3|4|4|None|None|0|0|None
+Minion|Fire Elemental|2|2|2|Whenever an opponent's minion enters play, deal 1 damage to it.|Triggered|0|1|MinionEnter
+Minion|Potion Seller|2|1|3|At the end of your turn, all your minions gain +0/+1|Triggered|0|2|End
+Minion|Novice Pyromancer|1|0|1|Deal 1 damage to target minion|Activated|1|1|None
+Minion|Apprentice Summoner|1|1|1|Summon a 1/1 air elemental|Activated|1|2|None
+Minion|Leper Giant|3|2|4|When dead, deal 2 damage to opponent player|Triggered|0|6|MinionDead
+Minion|Master Summoner|3|2|3|Summon up to three 1/1 air elementals|Activated|2|3|None
+Spell|Banish|2|0|0|Destroy target minion or ritual|None|0|4|None
+Spell|Unsummon|1|0|0|Put target minion on the bottom of its owner's deck|None|0|5|None
+Spell|Recharge|1|0|0|Your ritual gains 3 charges.|None|0|6|None
+Spell|Disenchant|1|0|0|Destroy the top enchantment on target minion|None|0|7|None
+Spell|Raise Dead|1|0|0|Resurrect the top minion in your graveyard|None|0|8|None
+Spell|Blizzard|3|0|0|Deal 2 damage to all minions|None|0|9|None
+Spell|Angel's Aurora|4|0|0|Add 10 defence randomly split among all your minions|None|0|11|None
+Enchantment|Giant Strength|1|2|2|None|None|0|0|None
+Enchantment|Magic Fatigue|0|0|0|Enchanted minion's activated ability costs 2 more|None|0|1|None
+Enchantment|Silence|1|0|0|Enchanted minion cannot use abilities|None|0|2|None
+Enchantment|Bomber|2|0|0|Deal 1 damage to all oponent minions|Activated|2|10|None
+Ritual|Dark Ritual|0|0|5|At the start of your turn, gain 1 magic|Triggered|1|3|Start
+Ritual|Aura of Power|1|0|4|Whenever a minion enters play under your control, it gains +1/+1|Triggered|1|4|MinionEnter
+Ritual|Standstill|3|0|4|Whenever a minion enters play, destroy it|Triggered|2|5|MinionEnter
+Ritual|Fever|3|0|1|A random minion on board attacks another minion|Triggered|1|7|Start
